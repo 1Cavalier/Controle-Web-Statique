@@ -1,0 +1,5 @@
+.A.B,
+ul~ :last-child {
+    border: 2px rgb(9, 9, 66);
+    background-color: blue;
+}

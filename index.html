@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link id="css" rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="style-general.css">
+</head>
+
+<body>
+    <div class="containeur">
+        <div class="top">
+            <h1>h1</h1>
+            <ul>
+                <li class="A B" id="item.A">ligne A</li>
+                <li class="A" id="b">ligne B</li>
+                <li class="B" id="c">ligne C</li>
+            </ul>
+            <footer>footer</footer>
+        </div>
+        <div class="Commentaire">
+            <h3><b>Commentaire</b></h3>
+            <br>
+            <h6>Question 1</h6>
+            <p>Réponse : 6</p>
+            <h6>Question 2</h6>
+            <p>Réponse : 5</p>
+            <h6>Question 3</h6>
+            <p>Réponse : 8</p>
+            <h6>Question 4</h6>
+            <p>Réponse : 0</p>
+            <h6>Question 5</h6>
+            <p>Réponse : 1</p>
+            <h6>Question 6</h6>
+            <p>Réponse : 2</p>
+            <h6>Question 7</h6>
+            <p>Réponse : 4</p>
+        </div>
+    </div>
+    <div>
+        <h1 class=" general ">
+            Voici la correction pour les selecteur
+        </h1>
+        <button onclick="document.getElementById( 'css').href='style1.css' ">.top :nth-child(2)</button>
+        <button onclick="document.getElementById( 'css').href='style2.css' ">ul:not(#b)</button>
+        <button onclick="document.getElementById( 'css').href='style3.css' ">li.B+*</button>
+        <button onclick="document.getElementById( 'css').href='style4.css' ">:last-child</button>
+        <button onclick="document.getElementById( 'css').href='style5.css' ">ul:first-child</button>
+        <button onclick="document.getElementById( 'css').href='style6.css' ">ul li</button>
+        <button onclick="document.getElementById( 'css').href='style7.css' ">.A.B, ul ~ :last-child</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+ul:not(#b) {
+    border: 2px rgb(9, 9, 66);
+    background-color: blue;
+}

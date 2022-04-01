@@ -1,0 +1,4 @@
+.top :nth-child(2) {
+    border: 2px rgb(9, 9, 66);
+    background-color: blue;
+}
